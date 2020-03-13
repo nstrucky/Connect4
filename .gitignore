@@ -1,0 +1,15 @@
+# This rule ignores class files
+*.class
+
+# This rule ignores the contents of the bin/ build output directory (which includes .class files)
+bin/
+
+# This rule ignores temporary files that end with ~
+*~
+
+# This rule ignores the contents of the .settings directory that text editors will sometimes make
+.settings/
+
+#This rule ignores the NCSU checkstyle program files
+/CE/src/cs-checkstyle
+/CE/src/cs-checkstyle-master
